@@ -73,10 +73,16 @@ database.ref().on("child_added", function (childSnapshot) {
         $("<td>").text(trainFrequency),
         $("<td>").text(nextArrival),
         $("<td>").text(minutesAway),
-        // $("<td>").html("<button id = 'train-delete'>Delete This Train</button>")
+        $("<td>").html("<button id = 'train-delete' type='button' class='btn btn-primary'>Delete This Train</button>")
     );
     $("#train-info").append(newRow);
 
 }, function (errorObject) {
     console.log(errorObject.code);
+});
+
+$(document).on("click", "#train-delete", function() { 
+    $(this).closest("tr").remove();
+    database.ref($(this)).remove();
+    
 });
