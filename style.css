@@ -1,0 +1,65 @@
+.jumbotron {
+    text-align: center;
+    background: lightseagreen;
+
+}
+
+.container-header {
+    background: lightseagreen;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    padding: 15px 22px;
+    font-weight: bold;
+
+}
+
+.container {
+    padding-bottom: 10px;
+}
+
+.card{
+    width: 1050px;
+    margin: auto;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+}
+
+form {
+    width: 1050px;
+    margin: auto;
+    border: 2px solid lightseagreen;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.table-header{
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn {
+    background: lightseagreen;
+    color: white;
+    border: lightseagreen;
+}
+.btn:hover {
+    background: lightgrey;
+    border:lightgrey;
+}
+
+.card-header{
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    background-color: lightseagreen;
+}
+
+.form-group {
+    padding: 10px;
+}
+
+#train-add {
+    margin: 5px 22px 15px 22px;
+}
+
